@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2? family= Rubik+Moonrocks & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Rubik Moonrocks';
+    font-weight: 400;
+    color: blue;
+}
+
+/* cabeçalho */
+h1, p, h2{
+    text-align: center
+
+}
+.titulo-principal{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: 'Rubik Moonrocks';
+    font-weight: 700;
+}
+/* cards */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 200px;
+    margin: 25px;
+    border: 2px solid #abdcff;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #D3D3D3;
+}
+.card-imagem{
+    height: 300px;
+    background-size: cover;
+}
+.card-1 .card-imagem{
+    background-image: url(/img/1e0fccc2da828e37c1eb7ce627f58139.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-2 .card-imagem{
+    background-image: url(/img/d51dedb898b012d61974739ac16108c5.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-3 .card-imagem{
+    background-image: url(/img/0\,\,18881391-EX\,00.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.btn{
+    display: block;
+    background-color: blue;
+    color: #FFF;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.btn:hover{
+    background-color: #FFF;
+    color: blue;
+    border-color: blue;
+}
+.card-descricao{
+    padding: 20px 10px;
+}
